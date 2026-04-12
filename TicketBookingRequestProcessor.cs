@@ -44,5 +44,10 @@ namespace TicketBookingCore
             };
         }
 
+        private bool WorksEmail(string email)
+        {
+            return !string.IsNullOrWhiteSpace(email) && email.Contains("@");
+        }
+
     }
 }
