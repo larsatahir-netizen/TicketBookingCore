@@ -2,6 +2,6 @@
 {
     public class TicketBookingResponse : TicketBookingBase
     {
-      public bool Works{ get; set; }
+      public bool Works { get; set; }
     }
 }
